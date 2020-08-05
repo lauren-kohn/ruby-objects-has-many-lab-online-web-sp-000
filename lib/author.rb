@@ -19,6 +19,7 @@ class Author
   
   def posts 
     @writings
+    #Post.all
   end 
   
   def self.post_count
