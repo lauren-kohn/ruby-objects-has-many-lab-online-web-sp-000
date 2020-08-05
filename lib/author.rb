@@ -20,8 +20,8 @@ class Author
   end 
   
   def posts 
-    @writings
-    #Post.all
+    #@writings
+    Post.all
   end 
   
   def self.post_count
