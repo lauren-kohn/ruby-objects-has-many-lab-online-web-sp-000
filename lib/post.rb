@@ -17,8 +17,7 @@ class Post
   end
   
   def title
-    self.title = @title
-    binding.pry
+    @name
   end
   
   def author_name
