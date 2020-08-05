@@ -23,7 +23,6 @@ class Author
   end 
   
   def posts 
-    #@writings
     Post.all
   end 
   
