@@ -20,7 +20,6 @@ class Author
   def add_post_by_title(post)
     new_post = Post.new(post)
     @writings << new_post
-    binding.pry
     post.author = @name
     @@posts += 1
   end 
