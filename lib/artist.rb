@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist 
   
-  attr_accessor :name, :artist #, :song
+  attr_accessor :name, :artist
   
   @@song_count = 0
   
@@ -12,7 +12,7 @@ class Artist
   end
   
   def songs 
-    @songs
+    @@songs
   end
   
   def add_song(song_name)
