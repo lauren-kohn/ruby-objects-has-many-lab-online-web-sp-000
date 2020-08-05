@@ -15,7 +15,7 @@ class Post
   end
   
   def title(words)
-    @title = title
+    @title = words
   end
   
   def author_name
