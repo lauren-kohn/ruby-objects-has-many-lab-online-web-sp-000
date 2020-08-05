@@ -16,5 +16,6 @@ class Post
   
   def title(title)
     self.title = title
+  end
   
 end
