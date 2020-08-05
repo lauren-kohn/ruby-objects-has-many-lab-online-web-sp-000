@@ -14,7 +14,7 @@ class Post
     @@all
   end
   
-  def title
+  def title(words)
     @title = title
   end
   
