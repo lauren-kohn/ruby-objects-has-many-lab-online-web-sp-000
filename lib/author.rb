@@ -21,7 +21,7 @@ class Author
     new_post = Post.new(post)
     @writings << new_post
     binding.pry
-    post.author = self
+    post.author = @name
     @@posts += 1
   end 
   
