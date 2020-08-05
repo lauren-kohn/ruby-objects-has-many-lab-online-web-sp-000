@@ -9,11 +9,12 @@ class Author
     @writings = []
   end
   
-  def add_post
+  def add_post(post)
+    
     
   end 
   
-  def add_post_by_title
+  def add_post_by_title(post)
     
   end 
   
@@ -23,5 +24,7 @@ class Author
   end 
   
   def self.post_count
+    
+  end
   
 end
