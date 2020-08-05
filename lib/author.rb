@@ -9,4 +9,18 @@ class Author
     @writings = []
   end
   
+  def add_post
+    
+  end 
+  
+  def add_post_by_title
+    
+  end 
+  
+  def posts 
+    @writings
+  end 
+  
+  def self.post_count
+  
 end
