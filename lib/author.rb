@@ -19,6 +19,7 @@ class Author
     new_post = Post.new(post)
     @writings << new_post
     post.author = self
+    @@posts += 1
   end 
   
   def posts 
